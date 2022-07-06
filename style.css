@@ -12,6 +12,9 @@ h1{
 h2{
     font-size: 35px;
 }
+.margin10{
+    margin-bottom: 10px;
+}
 .common-p{
     text-align: center;
 }
@@ -21,7 +24,7 @@ h2{
     background-color: rgb(247, 86, 113);
     padding: 15px 30px;
     border-radius: 5px;
-    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 /* common codes */
 
@@ -29,7 +32,7 @@ h2{
 
 /* Banner-area starts */
 .banner-area{
-    height: 80vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,9 +63,6 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.donate-toady-area h2{
-    margin-bottom: 10px;
 }
 .donate-toady-area p{
     margin-bottom: 20px;
@@ -106,9 +106,6 @@ h2{
     align-items: center;
     margin-bottom: 100px;
 }
-.donation-plan-area h2{
-    margin-bottom: 10px;
-}
 .donation-plan-area p{
     margin-bottom: 50px;
 }
@@ -120,13 +117,13 @@ h2{
 .card{
     width: 20%;
     border-radius: 5px;
-    padding: 30px 15px;
+    padding: 30px 20px;
 }
 .card img{
     padding: 10px;
     width: 40px;
     margin-left: 38%;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 50%;
     margin-bottom: 10px;
 }
@@ -189,9 +186,6 @@ h2{
     justify-content: center;
     align-items: center;
 }
-.update-area h2{
-    margin-bottom: 10px;
-}
 .update-area p{
     margin-bottom: 50px;
 }
@@ -200,13 +194,11 @@ h2{
     width: 600px;
     height: 150px;
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
 }
 .email-area input{
     padding: 15px 30px;
-    /* border-radius: 5px; */
     border: none;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
