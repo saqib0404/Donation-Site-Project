@@ -12,6 +12,9 @@ h1{
 h2{
     font-size: 40px;
 }
+.common-p{
+    text-align: center;
+}
 .common-btn{
     text-decoration: none;
     color: white;
@@ -54,7 +57,6 @@ h2{
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;
-    
     justify-content: center;
     align-items: center;
 }
@@ -63,7 +65,6 @@ h2{
 }
 .donate-toady-area p{
     margin-bottom: 20px;
-    text-align: center;
 }
 .amount{
     display: flex;
@@ -97,5 +98,50 @@ h2{
 
 
 /* donation plan area starts */
-
+.donation-plan-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.donation-plan-area h2{
+    margin-bottom: 10px;
+}
+.donation-plan-area p{
+    margin-bottom: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    height: 320px;
+}
+.card{
+    width: 20%;
+    border-radius: 5px;
+    padding: 30px 15px;
+}
+.card img{
+    padding: 10px;
+    width: 40px;
+    margin-left: 38%;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.card h3{
+    margin-bottom: 5px;
+}
+.card p{
+    text-align: justify;
+}
+.card1{
+    background-color: rgb(209, 209, 235);
+}
+.card2{
+    background-color: rgb(230, 205, 209);
+}
+.card3{
+    background-color: rgb(226, 209, 201);
+}
 /* donation plan area ends */
