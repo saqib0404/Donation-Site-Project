@@ -36,7 +36,8 @@ h2{
     align-items: center;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-image: url(images/banner.jpg);
+    /* background-image: url(images/banner.jpg); */
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(images/banner.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -176,3 +177,46 @@ h2{
     margin-left: 40px;
 }
 /* donation-motive area ends */
+
+
+
+/* update-area starts */
+.update-area{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+.update-area h2{
+    margin-bottom: 10px;
+}
+.update-area p{
+    margin-bottom: 50px;
+}
+.email-area{
+    background-color: rgb(233, 209, 178);
+    width: 600px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.email-area input{
+    padding: 15px 30px;
+    /* border-radius: 5px; */
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.email-area > a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(247, 86, 113);
+    padding: 14px 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/* update-area ends */
