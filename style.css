@@ -10,7 +10,7 @@ h1{
     font-size: 50px;
 }
 h2{
-    font-size: 40px;
+    font-size: 35px;
 }
 .common-p{
     text-align: center;
@@ -29,7 +29,7 @@ h2{
 
 /* Banner-area starts */
 .banner-area{
-    height: 70vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +38,7 @@ h2{
     color: rgb(255, 255, 255);
     background-image: url(images/banner.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     margin-bottom: 100px;
 }
@@ -145,3 +145,34 @@ h2{
     background-color: rgb(226, 209, 201);
 }
 /* donation plan area ends */
+
+
+
+/* donation-motive area starts */
+.donation-motive{
+    margin: 0px 200px 100px;
+}
+.motive1{
+    display: flex;
+    margin-bottom: 120px;
+}
+.half-width{
+    width: 50%;
+}
+.motive-des{
+    padding: 10px;
+}
+.motive-des h2{
+    margin-bottom: 20px;
+}
+.motive-des p{
+    margin-bottom: 30px;
+}
+.half-width img{
+    width: 100%;
+    height: 400px;
+}
+.motive-des2{
+    margin-left: 40px;
+}
+/* donation-motive area ends */
